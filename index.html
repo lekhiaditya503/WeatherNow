@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Now</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Now</h1>
+
+      <form action="">
+        <label>
+          <p>Enter location for weather</p>
+          <input type="text" name="city" />
+        </label>
+      </form>
+
+      <div class="boxshadow">
+        <div class="card">
+          <img src="https://via.placeholder.com/400x300" class="time" alt="" />
+          <div >
+            <img class="icon" alt="" >
+          </div>
+        </div>
+
+        <div class="weather-details">
+          <div class="city">city name</div>
+          <div class="condtion">Weather Condition</div>
+          <div class="temp">
+            <span>temp</span>
+            <span>&deg;c</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/forecast.js"></script>
+  </body>
+</html>
